@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "9660ad68-3442-419c-93df-ae739cea5fb9",
+		"name": "MyNotesAppCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "31255933"
+	},
+	"item": [
+		{
+			"name": "Get Notes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8000/notes"
+			},
+			"response": []
+		},
+		{
+			"name": "Get UploadForm.html",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8000/UploadForm.html"
+			},
+			"response": []
+		},
+		{
+			"name": "post upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8000/upload/"
+			},
+			"response": []
+		},
+		{
+			"name": "get update",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8000/notes/note2"
+			},
+			"response": []
+		},
+		{
+			"name": "delete note_name",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8000/notes/note1"
+			},
+			"response": []
+		},
+		{
+			"name": "put note_name",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:8000/notes/note2"
+			},
+			"response": []
+		}
+	]
+}
